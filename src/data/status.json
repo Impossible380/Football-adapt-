@@ -1,0 +1,10 @@
+[
+    {
+        "label": "actuel",
+        "color": "white"
+    },
+    {
+        "label": "ancien",
+        "color": "dark"
+    }
+]

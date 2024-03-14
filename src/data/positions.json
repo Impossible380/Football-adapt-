@@ -1,0 +1,26 @@
+[
+    {
+        "label": "Gardien",
+        "color": "secondary"
+    },
+    {
+        "label": "Défenseur",
+        "color": "primary"
+    },
+    {
+        "label": "Milieu",
+        "color": "warning"
+    },
+    {
+        "label": "Attaquant",
+        "color": "danger"
+    },
+    {
+        "label": null,
+        "color": "white"
+    },
+    {
+        "label": "Milieu",
+        "color": "warning"
+    }
+]
