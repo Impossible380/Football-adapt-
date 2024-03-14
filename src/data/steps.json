@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "icon": "fa-solid fa-mobile-screen-button",
+        "text": "Choisissez un restaurant"
+    },
+    {
+        "id": 2,
+        "icon": "fa-solid fa-list",
+        "text": "Composez votre menu"
+    },
+    {
+        "id": 3,
+        "icon": "fa-solid fa-store",
+        "text": "Dégustez au restaurant"
+    }
+]

@@ -1,0 +1,9 @@
+.logo {
+	width: 100px;
+	height: 100px;
+}
+
+.rounded-180 {
+	border-bottom-left-radius: 180px;
+	border-bottom-right-radius: 180px;
+}

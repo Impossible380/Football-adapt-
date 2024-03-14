@@ -1,0 +1,192 @@
+[
+    {
+        "number": 3,
+        "firstname": "Alexandre_Ier",
+        "position": "Défenseur",
+        "entersAt": "21/09/2022",
+        "exitsAt": null,
+        "status": "actuel",
+        "statistics": {
+            "lawn": {
+                "goals":[0, 0, 1, 0],
+                "matches":[4, 4, 3, 3],
+                "concededGoals":[0, 0, 0, 0],
+                "matchesAsGoalkeeper":[0, 0, 0, 0]
+            },
+            "indoor": {
+                "goals":[0, 0],
+                "matches":[5, 5],
+                "concededGoals":[0, 0],
+                "matchesAsGoalkeeper":[0, 0]
+            }
+        }
+    },
+    {
+        "number": 12,
+        "firstname": "Christophe",
+        "position": "Milieu",
+        "entersAt": "22/09/2021",
+        "exitsAt": null,
+        "status": "actuel"
+    },
+    {
+        "number": 1,
+        "firstname": "Damien",
+        "position": "Gardien",
+        "entersAt": "22/09/2021",
+        "exitsAt": "14/02/2024",
+        "status": "actuel"
+    },
+    {
+        "number": null,
+        "firstname": "Eric",
+        "position": null,
+        "entersAt": "03/05/2023",
+        "exitsAt": null,
+        "status": "actuel"
+    },
+    {
+        "number": 16,
+        "firstname": "Fabien",
+        "position": "Gardien",
+        "entersAt": "22/09/2021",
+        "exitsAt": null,
+        "status": "actuel"
+    },
+    {
+        "number": 15,
+        "firstname": "Frédéric_Ier",
+        "position": "Défenseur",
+        "entersAt": "22/09/2021",
+        "exitsAt": null,
+        "status": "actuel"
+    },
+    {
+        "number": 14,
+        "firstname": "Frédéric_II",
+        "position": "Défenseur",
+        "entersAt": "21/09/2022",
+        "exitsAt": null,
+        "status": "actuel"
+    },
+    {
+        "number": 2,
+        "firstname": "Jebrine",
+        "position": "Défenseur",
+        "entersAt": "22/09/2021",
+        "exitsAt": "14/02/2024",
+        "status": "actuel"
+    },
+    {
+        "number": 9,
+        "firstname": "Kévin",
+        "position": "Milieu",
+        "entersAt": "04/10/2023",
+        "exitsAt": null,
+        "status": "actuel"
+    },
+    {
+        "number": 4,
+        "firstname": "Morgan",
+        "position": "Défenseur",
+        "entersAt": "21/09/2022",
+        "exitsAt": null,
+        "status": "actuel"
+    },
+    {
+        "number": 10,
+        "firstname": "Mounir",
+        "position": "Milieu",
+        "entersAt": "22/03/2023",
+        "exitsAt": null,
+        "status": "actuel"
+    },
+    {
+        "number": 6,
+        "firstname": "Pablo",
+        "position": "Milieu",
+        "entersAt": "07/06/2023",
+        "exitsAt": null,
+        "status": "actuel"
+    },
+    {
+        "number": 11,
+        "firstname": "Philippe",
+        "position": "Attaquant",
+        "entersAt": "22/09/2021",
+        "exitsAt": null,
+        "status": "actuel"
+    },
+    {
+        "number": 7,
+        "firstname": "Pierre",
+        "position": "Attaquant",
+        "entersAt": "22/09/2021",
+        "exitsAt": "14/02/2024",
+        "status": "actuel"
+    },
+    {
+        "number": 13,
+        "firstname": "Rayan",
+        "position": "Défenseur",
+        "entersAt": "22/09/2021",
+        "exitsAt": null,
+        "status": "actuel"
+    },
+    {
+        "number": 8,
+        "firstname": "Redha",
+        "position": "Milieu",
+        "entersAt": "04/10/2023",
+        "exitsAt": "14/02/2024",
+        "status": "actuel"
+    },
+    {
+        "number": 5,
+        "firstname": "Yanis",
+        "position": "Milieu",
+        "entersAt": "20/09/2023",
+        "exitsAt": null,
+        "status": "actuel"
+    },
+    {
+        "number": null,
+        "firstname": "Alexandre_II",
+        "position": null,
+        "entersAt": "20/09/2023",
+        "exitsAt": "27/09/2023",
+        "status": "ancien"
+    },
+    {
+        "number": null,
+        "firstname": "Julien",
+        "position": null,
+        "entersAt": "14/06/2023",
+        "exitsAt": "14/06/2023",
+        "status": "ancien"
+    },
+    {
+        "number": null,
+        "firstname": "Junior",
+        "position": "Défenseur",
+        "entersAt": "22/09/2021",
+        "exitsAt": "28/06/2023",
+        "status": "ancien"
+    },
+    {
+        "number": null,
+        "firstname": "Joueur_de_Chaponost",
+        "position": null,
+        "entersAt": "22/09/2021",
+        "exitsAt": "22/06/2022",
+        "status": "ancien"
+    },
+    {
+        "number": null,
+        "firstname": "Sosie_de_Pierre",
+        "position": null,
+        "entersAt": "22/09/2021",
+        "exitsAt": "22/06/2022",
+        "status": "ancien"
+    }
+]

@@ -1,0 +1,276 @@
+<section id="equipe" class="py-5">
+    <div class="container">
+
+        <div class="row g-5">
+
+            <h2 class="titre-header fw-bold text-center">L'équipe</h2>
+
+            <!-- Début Effectif -->
+            <div id="effectif" class="col-12 col-md-6">
+
+                <h3 class="mb-3">Effectif actuel</h3>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#entraineurs_actuels_Modal">
+                    Entraîneurs
+                </button>
+
+                <div class="modal fade text-dark" id="entraineurs_actuels_Modal" tabindex="-1" aria-labelledby="entraineurs_actuels_ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="entraineurs_actuels_ModalLabel">Entraîneurs</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <table class="border border-dark text-center w-100">
+
+                                    <thead>
+                                        <tr>
+                                            <th class="p-1">Prénom</th>
+                                            <th class="p-1">Période</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody class="text-white bg-success">
+                                        <tr>
+                                            <th class="p-3" colspan="2">Actuels</th>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="p-1">Gianni</td>
+                                            <td class="p-1">22/09/2021 ? - en cours</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-1">Thibault</td>
+                                            <td class="p-1">05/10/2022 - en cours</td>
+                                        </tr>
+                                    </tbody>
+
+                                    <tbody class="text-white bg-dark">
+                                        <tr>
+                                            <th class="p-3" colspan="2">Anciens</th>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="p-1">Adam (P'tit Louis)</td>
+                                            <td class="p-1">29/04/2023 - 29/04/2023</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-1">Ali</td>
+                                            <td class="p-1">22/09/2021 ? - 22/06/2022 ?</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-1">Riyad</td>
+                                            <td class="p-1">11/01/2023 ? - 05/04/2023 ?</td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#joueurs_actuels_Modal">
+                    Joueurs
+                </button>
+
+                <div class="modal fade text-dark" id="joueurs_actuels_Modal" tabindex="-1" aria-labelledby="joueurs_actuels_ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="joueurs_actuels_ModalLabel">Joueurs</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <table class="border border-dark text-center w-100">
+
+                                    <thead>
+                                        <tr>
+                                            <th class="p-1">N°</th>
+                                            <th class="p-1">Prénom</th>
+                                            <th class="p-1">Période</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody id="gardiens" class="text-white bg-secondary">
+                                        <tr>
+                                            <th class="p-3" colspan="3">Gardiens</th>
+                                        </tr>
+                                    </tbody>
+
+                                    <tbody id="defenseurs" class="text-white bg-primary">
+                                        <tr>
+                                            <th class="p-3" colspan="3">Défenseurs</th>
+                                        </tr>
+                                    </tbody>
+
+                                    <tbody id="milieux" class="bg-warning">
+                                        <tr>
+                                            <th class="p-3" colspan="3">Milieux</th>
+                                        </tr>
+                                    </tbody>
+
+                                    <tbody id="attaquants" class="text-white bg-danger">
+                                        <tr>
+                                            <th class="p-3" colspan="3">Attaquants</th>
+                                        </tr>
+                                    </tbody>
+
+                                    <tbody id="inconnu">
+                                        <tr>
+                                            <th class="p-3" colspan="3">Inconnu</th>
+                                        </tr>
+                                    </tbody>
+
+                                    <tbody id="anciens" class="text-white bg-dark">
+                                        <tr>
+                                            <th class="p-3" colspan="3">Anciens</th>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Fin Effectif -->
+
+            <!-- Début Composition d'équipe -->
+            <div id="composition_equipe" class="col-12 col-md-6">
+
+                <h3 class="mb-3">Composition d'équipe</h3>
+                <p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#composition_equipe_Modal">
+                        Actuelle
+                    </button>
+                </p>
+
+                <!-- Modal -->
+                <div class="modal fade text-dark" id="composition_equipe_Modal" tabindex="-1" aria-labelledby="composition_equipe_ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="composition_equipe_ModalLabel">Composition d'équipe actuelle</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <!-- Début Terrain -->
+                                <div class="container border border-dark text-center">
+
+                                    <!-- Début Rond central -->
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-4 p-3 border border-dark border-top-0 rounded-180">
+                                            <br /><br />
+                                        </div>
+                                    </div>
+                                    <!-- Fin Rond central -->
+
+                                    <!-- Début Attaquant -->
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-4">
+                                            <div class="m-1 border border-dark bg-danger text-white">
+                                                <p>Attaquant<br/>7<br />Pierre</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Fin Attaquant -->
+
+                                    <!-- Début Milieu -->
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-4">
+                                            <div class="m-1 border border-dark bg-warning">
+                                                <p>Milieu<br/>8<br />Redha</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="m-1 border border-dark bg-warning">
+                                                <p>Milieu<br/>10<br />Mounir (C)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Fin Milieu -->
+
+                                    <!-- Début Défenseurs -->
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-4">
+                                            <div class="m-1 border border-dark bg-primary text-white">
+                                                <p>Défenseur<br/>2<br />Jebrine</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="m-1 border border-dark bg-primary text-white">
+                                                <p>Défenseur<br/>3<br />Alexandre Ier</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="m-1 border border-dark bg-primary text-white">
+                                                <p>Défenseur<br/>4<br />Morgan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Fin Défenseurs -->
+
+                                    <!-- Début Gardien -->
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-8 border border-dark border-bottom-0">
+                                            <div class="d-flex justify-content-center">
+                                                <div class="col-6">
+                                                    <div class="m-1 border border-dark bg-secondary text-white">
+                                                        <p>Gardien<br/>1<br />Damien</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Fin Gardien -->
+
+                                </div>
+                                <!-- Fin Terrain -->
+
+                                <p>2-1-1</p>
+
+                                <h2 class="mt-4 mb-3">Remplaçants :</h2>
+                                <ul>
+                                    <li>16. Fabien (Gardien)</li>
+                                    <li>13. Rayan</li>
+                                    <li>14. Frédéric II</li>
+                                    <li>15. Frédéric Ier</li>
+                                    <li>5. Yanis</li>
+                                    <li>6. Pablo</li>
+                                    <li>9. Kévin</li>
+                                    <li>12. Christophe</li>
+                                    <li>11. Philippe</li>
+                                    <li>?. Éric</li>
+                                </ul>
+
+                                <h2 class="mt-4 mb-3">Entraîneurs :</h2>
+                                <ul>
+                                    <li>Gianni</li>
+                                    <li>Thibault (adjoint)</li>
+                                </ul>
+
+                                <h2 class="mt-4 mb-3">Rôles :</h2>
+                                <ul>
+                                    <li>Capitaine : Mounir</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Fin composition d'équipe -->
+
+        </div>
+
+    </div>
+</section>

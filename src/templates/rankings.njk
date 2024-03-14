@@ -1,0 +1,259 @@
+<section id="classements" class="py-5 bg-light">
+    <div class="container">
+
+        <h2 class="titre-header fw-bold mb-5 text-center">Les classements</h2>
+
+        <div id="classements_entraineurs" class="mb-5">
+
+            <h3>Classements des entraîneurs</h3>
+            <p>
+                <button type="button" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#classement_entraineurs_globaux_Modal">
+                    Globaux
+                </button>
+            </p>
+
+            <div class="modal fade text-dark" id="classement_entraineurs_globaux_Modal" tabindex="-1" aria-labelledby="classement_entraineurs_globaux_ModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title" id="classement_entraineurs_globaux_ModalLabel">Classement des entraîneurs (globaux)</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <h2 class="mb-3">Sur gazon</h2>
+                            <table class="text-center">
+                                <thead> <!-- En-tête du tableau -->
+                                    <tr>
+                                        <th class="p-1 border border-dark">Rang</th>
+                                        <th class="p-1 border border-dark">Prénom</th>
+                                        <th class="p-1 border border-dark">M</th>
+                                        <th class="p-1 border border-dark">V</th>
+                                        <th class="p-1 border border-dark">N</th>
+                                        <th class="p-1 border border-dark">D</th>
+                                        <th class="p-1 border border-dark">Bp</th>
+                                        <th class="p-1 border border-dark">Bc</th>
+                                        <th class="p-1 border border-dark">Diff.</th>
+                                    </tr>
+                                </thead>
+                    
+                                <tbody> <!-- Corps du tableau -->
+                                    <tr>
+                                        <td class="p-1 border border-dark">1</td>
+                                        <td class="p-1 border border-dark">Thibault</td>
+                                        <td class="p-1 border border-dark">8</td>
+                                        <td class="p-1 border border-dark">3</td>
+                                        <td class="p-1 border border-dark">1</td>
+                                        <td class="p-1 border border-dark">4</td>
+                                        <td class="p-1 border border-dark">19</td>
+                                        <td class="p-1 border border-dark">20</td>
+                                        <td class="p-1 border border-dark">-1</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-1 border border-dark">2</td>
+                                        <td class="p-1 border border-dark">Gianni</td>
+                                        <td class="p-1 border border-dark">7</td>
+                                        <td class="p-1 border border-dark">3</td>
+                                        <td class="p-1 border border-dark">1</td>
+                                        <td class="p-1 border border-dark">3</td>
+                                        <td class="p-1 border border-dark">14</td>
+                                        <td class="p-1 border border-dark">25</td>
+                                        <td class="p-1 border border-dark">-11</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <h2 class="mt-4 mb-3">En salle</h2>
+                            <table class="text-center">
+                                <thead> <!-- En-tête du tableau -->
+                                    <tr>
+                                        <th class="p-1 border border-dark">Rang</th>
+                                        <th class="p-1 border border-dark">Prénom</th>
+                                        <th class="p-1 border border-dark">M</th>
+                                        <th class="p-1 border border-dark">V</th>
+                                        <th class="p-1 border border-dark">N</th>
+                                        <th class="p-1 border border-dark">D</th>
+                                        <th class="p-1 border border-dark">Bp</th>
+                                        <th class="p-1 border border-dark">Bc</th>
+                                        <th class="p-1 border border-dark">Diff.</th>
+                                    </tr>
+                                </thead>
+                            
+                                <tbody> <!-- Corps du tableau -->
+                                    <tr>
+                                        <td class="p-1 border border-dark">1</td>
+                                        <td class="p-1 border border-dark">Thibault</td>
+                                        <td class="p-1 border border-dark">3</td>
+                                        <td class="p-1 border border-dark">2</td>
+                                        <td class="p-1 border border-dark">0</td>
+                                        <td class="p-1 border border-dark">1</td>
+                                        <td class="p-1 border border-dark">10</td>
+                                        <td class="p-1 border border-dark">4</td>
+                                        <td class="p-1 border border-dark">+6</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-1 border border-dark">2</td>
+                                        <td class="p-1 border border-dark">Gianni</td>
+                                        <td class="p-1 border border-dark">8</td>
+                                        <td class="p-1 border border-dark">3</td>
+                                        <td class="p-1 border border-dark">1</td>
+                                        <td class="p-1 border border-dark">4</td>
+                                        <td class="p-1 border border-dark">12</td>
+                                        <td class="p-1 border border-dark">10</td>
+                                        <td class="p-1 border border-dark">+2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <h2 class="mt-4 mb-3">Notes</h2>
+                            <p>Les statistiques concernent les matchs en tant qu'entraîneur principal.</p>
+                            <p>Lors du plateau du 20 janvier 2024 à Villefranche-sur-Saône, Thibault a été l'unique entraîneur lors des 3 premiers matchs tandis que Gianni l'a rejoint et a été l'entraîneur principal pour les 3 suivants. Il y a eu 1 défaite puis 2 victoires avec le premier tandis qu'il y a eu 3 défaites avec le second.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="classements_joueurs">
+
+            <h3 class="mb-4">Classements des joueurs</h3>
+
+            <div id="classements_generaux" class="mb-5">
+
+                <h4 class="mb-3">Classements généraux</h4>
+
+                <!-- Début Buteurs -->
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#classement_buteurs_generaux_Modal">Buteurs</a>
+
+                <!-- Modal -->
+                <div class="modal fade text-dark" id="classement_buteurs_generaux_Modal" tabindex="-1" aria-labelledby="classement_buteurs_generaux_ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="classement_buteurs_generaux_ModalLabel">Classement des buteurs (généraux)</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                
+                                <h2 class="mb-3">Sur gazon</h2>
+                                <table class="w-100 text-center">
+                                    <thead> <!-- En-tête du tableau -->
+                                        <tr>
+                                            <th class="p-1 border border-dark">Rang</th>
+                                            <th class="p-1 border border-dark">Prénom</th>
+                                            <th class="p-1 border border-dark text-danger">Buts</th>
+                                            <th class="p-1 border border-dark text-primary">Matchs</th>
+                                            <th class="p-1 border border-dark">Moy. B/M</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody id="lawn_overall_scorer_table"> <!-- Corps du tableau -->
+                                        
+                                    </tbody>
+                                </table>
+                                
+                                <h2 class="mt-4 mb-3">En salle</h2>
+                                <table class="w-100 text-center">
+                                    <thead> <!-- En-tête du tableau -->
+                                        <tr>
+                                            <th class="p-1 border border-dark">Rang</th>
+                                            <th class="p-1 border border-dark">Prénom</th>
+                                            <th class="p-1 border border-dark text-danger">Buts</th>
+                                            <th class="p-1 border border-dark text-primary">Matchs</th>
+                                            <th class="p-1 border border-dark">Moy. B/M</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody id="indoor_overall_scorer_table"> <!-- Corps du tableau -->
+                                        
+                                    </tbody>
+                                </table>
+
+                                <h2 class="mt-4 mb-3">Notes</h2>
+                                <p>* Junior a quitté l'équipe.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Buteurs -->
+
+                <!-- Début Gardiens -->
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#classement_gardiens_generaux_Modal">Gardiens</a>
+
+                <!-- Modal -->
+                <div class="modal fade text-dark" id="classement_gardiens_generaux_Modal" tabindex="-1" aria-labelledby="classement_gardiens_generaux_ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="classement_gardiens_generaux_ModalLabel">Classement des gardiens (généraux)</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                
+                                <h2 class="mb-3">Sur gazon</h2>
+                                <table class="w-100 text-center">
+                                    <thead> <!-- En-tête du tableau -->
+                                        <tr>
+                                            <th class="p-1 border border-dark">Rang</th>
+                                            <th class="p-1 border border-dark">Prénom</th>
+                                            <th class="p-1 border border-dark text-danger">Buts encaissés</th>
+                                            <th class="p-1 border border-dark text-primary">Matchs</th>
+                                            <th class="p-1 border border-dark">Moy. Bc/M</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody id="lawn_overall_goalkeeper_table"> <!-- Corps du tableau -->
+                                        
+                                    </tbody>
+                                </table>
+                                
+                                <h2 class="mt-4 mb-3">En salle</h2>
+                                <table class="w-100 text-center">
+                                    <thead> <!-- En-tête du tableau -->
+                                        <tr>
+                                            <th class="p-1 border border-dark">Rang</th>
+                                            <th class="p-1 border border-dark">Prénom</th>
+                                            <th class="p-1 border border-dark text-danger">Buts encaissés</th>
+                                            <th class="p-1 border border-dark text-primary">Matchs</th>
+                                            <th class="p-1 border border-dark">Moy. Bc/M</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody id="indoor_overall_goalkeeper_table"> <!-- Corps du tableau -->
+                                        
+                                    </tbody>
+                                </table>
+
+                                <h2 class="mt-4 mb-3">Notes</h2>
+                                <p>- Lors du plateau du 4 février 2023 sur gazon à Sainte-Foy-lès-Lyon, Frédéric II (habituellement joueur de champ) a joué environ 5 minutes au poste de gardien lors de la rencontre FC Ste-Foy - ES Chaponost A (0-7). Il a encaissé probablement 2 buts.</p>
+                                <p>- Lors du plateau du 21 octobre 2023 sur gazon à Écully, Damien (d'abord) et Fabien (ensuite) ont chacun joué environ 10 minutes au poste de gardien lors de la rencontre AS Écully B - FC Ste-Foy (1-7). Le premier est resté invaincu tandis que le second a encaissé 1 but.</p>
+                                <p>- Lors du plateau du 2 décembre 2023 en salle à Brindas, Kévin (habituellement joueur de champ) était gardien lors de la rencontre FC Ste-Foy - FC Sud-Ouest 69 (6-0). Il est resté invaincu.</p>
+                                <p>- Lors des matchs amicaux du 18 février 2024 sur gazon à Sainte-Foy-lès-Lyon, Fabien (d'abord) et Damien (ensuite) ont chacun joué environ 10 minutes au poste de gardien lors de la première rencontre entre le FC Ste-Foy - CO St-Fons (1-5). Le premier a encaissé 4 buts et le second en a encaissé 1.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Fin Gardiens -->
+
+            </div>
+
+            <div id="classements_specifiques" class="row gy-4">
+
+                <h4>Classements spécifiques</h4>
+
+            </div>
+            
+        </div>
+
+    </div>
+</section>
