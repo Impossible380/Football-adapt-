@@ -1,26 +1,27 @@
 [
     {
         "label": "Gardien",
-        "color": "secondary"
+        "textColor": "white",
+        "bgColor": "secondary"
     },
     {
         "label": "Défenseur",
-        "color": "primary"
+        "textColor": "white",
+        "bgColor": "primary"
     },
     {
         "label": "Milieu",
-        "color": "warning"
+        "textColor": "black",
+        "bgColor": "warning"
     },
     {
         "label": "Attaquant",
-        "color": "danger"
+        "textColor": "white",
+        "bgColor": "danger"
     },
     {
-        "label": null,
-        "color": "white"
-    },
-    {
-        "label": "Milieu",
-        "color": "warning"
+        "label": "Inconnu",
+        "textColor": "black",
+        "bgColor": "white"
     }
 ]

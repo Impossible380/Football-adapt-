@@ -14,3 +14,11 @@ npx @11ty/eleventy --serve
 # 14/03/2024
 ## pendant la session
 * voir le include
+
+# 18/03/2024
+## pendant la session
+* gérer le coté data pour les membres de l'équipe
+## prochaine session 
+* Corriger le problème des joueurs ancien
+## A faire 
+* Gérer les entraineurs comme les joueurs

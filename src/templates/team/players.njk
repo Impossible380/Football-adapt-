@@ -6,14 +6,30 @@
             <th class="p-1">Période</th>
         </tr>
     </thead>
+
     
-    {% for player in players | sort_by('position') %}
-    <tr>
-        <td class="p-1">{{ player.number }}</td>
-        <td class="p-1">{{ player.firstname }}</td>
-        <td class="p-1">{{ player.entersAt }} - {{ player.exitsAt }}</td>
-    </tr>
+    {% for state in status %}
+        {% for position in positions %}
+            {% if state.textColor and state.bgColor %}
+                {% set colors = state %}
+            {% else %}
+                {% set colors = position %}
+            {% endif %}
+            <tbody id="{{ colors.label }}" class="text-{{ colors.textColor }} bg-{{ colors.bgColor }}">
+                <tr>
+                    <th class="p-3" colspan="3">{{ colors.label }}</th>
+                </tr>
+                {% for player in players | player_filter(state.label, position.label) %}
+                    <tr>
+                        <td class="p-1">{{ player.number }}</td>
+                        <td class="p-1">{{ player.firstname }}</td>
+                        <td class="p-1">{{ player.entersAt }} - {{ player.exitsAt }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        {% endfor %}
     {% endfor %}
+
 </table>
 
     <!--

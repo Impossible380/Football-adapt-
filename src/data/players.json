@@ -38,9 +38,9 @@
         "status": "actuel"
     },
     {
-        "number": null,
+        "number": 17,
         "firstname": "Eric",
-        "position": null,
+        "position": "Inconnu",
         "entersAt": "03/05/2023",
         "exitsAt": null,
         "status": "actuel"

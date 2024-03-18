@@ -1,10 +1,10 @@
 [
     {
-        "label": "actuel",
-        "color": "white"
+        "label": "actuel"
     },
     {
         "label": "ancien",
-        "color": "dark"
+        "textColor": "white",
+        "bgColor": "dark"
     }
 ]
