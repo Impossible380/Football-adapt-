@@ -181,35 +181,35 @@ players.sort((a, b) => {
 	}
 })
 
-// players.forEach((player) => {
-//     playerContent =
-// 	    `<tr>
-// 	        <td class="p-1">${player.number !== undefined ? player.number : "?"}</td>
-// 	        <td class="p-1">${player.firstname}</td>
-// 	        <td class="p-1">${player.startingDate} - ${player.endingDate !== undefined ? player.endingDate : "en cours"}</td>
-// 	    </tr>`;
+players.forEach((player) => {
+    playerContent =
+	    `<tr>
+	        <td class="p-1">${player.number !== undefined ? player.number : "?"}</td>
+	        <td class="p-1">${player.firstname}</td>
+	        <td class="p-1">${player.startingDate} - ${player.endingDate !== undefined ? player.endingDate : "en cours"}</td>
+	    </tr>`;
 
-// 	if (player.status === "actuel") {
-// 		if (player.position === "Gardien") {
-// 			document.getElementById("gardiens").innerHTML += playerContent;
-// 		}
-// 		else if (player.position === "Défenseur") {
-// 			document.getElementById("defenseurs").innerHTML += playerContent;
-// 		}
-// 		else if (player.position === "Milieu") {
-// 			document.getElementById("milieux").innerHTML += playerContent;
-// 		}
-// 		else if (player.position === "Attaquant") {
-// 			document.getElementById("attaquants").innerHTML += playerContent;
-// 		}
-// 		else {
-// 			document.getElementById("inconnu").innerHTML += playerContent;
-// 		}
-// 	}
-// 	else {
-// 		document.getElementById("anciens").innerHTML += playerContent;
-// 	}
-// });
+	if (player.status === "actuel") {
+		if (player.position === "Gardien") {
+			document.getElementById("gardiens").innerHTML += playerContent;
+		}
+		else if (player.position === "Défenseur") {
+			document.getElementById("defenseurs").innerHTML += playerContent;
+		}
+		else if (player.position === "Milieu") {
+			document.getElementById("milieux").innerHTML += playerContent;
+		}
+		else if (player.position === "Attaquant") {
+			document.getElementById("attaquants").innerHTML += playerContent;
+		}
+		else {
+			document.getElementById("inconnu").innerHTML += playerContent;
+		}
+	}
+	else {
+		document.getElementById("anciens").innerHTML += playerContent;
+	}
+});
 
 types = ["lawn", "indoor"];
 categories = ["scorer", "goalkeeper"];

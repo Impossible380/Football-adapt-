@@ -1,0 +1,31 @@
+<table class="border border-dark text-center w-100">
+    <thead>
+        <tr>
+            <th class="p-1">Prénom</th>
+            <th class="p-1">Période</th>
+        </tr>
+    </thead>
+
+    
+    {% for status in statuses %}
+        {% if status.textColor and status.bgColor %}
+            {% set colors = status %}
+        {% else %}
+            {% set colors = position %}
+        {% endif %}
+        <tbody id="{{ colors.label }}" class="text-{{ colors.textColor }} bg-{{ colors.bgColor }}">
+            <tr>
+                <th class="p-3 text-capitalize" colspan="2">
+                    {{ colors.label }}
+                </th>
+            </tr>
+            {% for trainer in trainers | trainer_filter(status.label) %}
+                <tr>
+                    <td class="p-1">{{ trainer.firstname }}</td>
+                    <td class="p-1">{{ trainer.entersAt }} - {{ trainer.exitsAt }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    {% endfor %}
+
+</table>

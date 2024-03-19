@@ -1,6 +1,8 @@
 [
     {
-        "label": "actuel"
+        "label": "actuel",
+        "textColor": "white",
+        "bgColor": "success"
     },
     {
         "label": "ancien",

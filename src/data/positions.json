@@ -20,7 +20,7 @@
         "bgColor": "danger"
     },
     {
-        "label": "Inconnu",
+        "label": null,
         "textColor": "black",
         "bgColor": "white"
     }

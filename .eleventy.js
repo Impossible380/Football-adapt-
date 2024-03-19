@@ -12,6 +12,10 @@ module.exports = config => {
            && player.position === position)
     });
 
+    config.addNunjucksFilter("trainer_filter", (trainers, status) => {
+        return trainers.filter(trainer => trainer.status === status)
+    });
+
     return {
         markdownTemplateEngine: 'njk',
         dataTemplateEngine: 'njk',

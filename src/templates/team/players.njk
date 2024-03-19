@@ -8,18 +8,30 @@
     </thead>
 
     
-    {% for state in status %}
+    {% set used_labels = [] %}
+    {% for status in statuses %}
         {% for position in positions %}
-            {% if state.textColor and state.bgColor %}
-                {% set colors = state %}
+            {% if status.label === "ancien" %}
+                {% set colors = status %}
             {% else %}
                 {% set colors = position %}
             {% endif %}
+
             <tbody id="{{ colors.label }}" class="text-{{ colors.textColor }} bg-{{ colors.bgColor }}">
-                <tr>
-                    <th class="p-3" colspan="3">{{ colors.label }}</th>
-                </tr>
-                {% for player in players | player_filter(state.label, position.label) %}
+                {% if colors.label not in used_labels %}
+                    <tr>
+                        <th class="p-3 text-capitalize" colspan="3">
+                            {% if position.label !== null %}
+                                {{ colors.label }}
+                            {% else %}
+                                Inconnu
+                            {% endif %}
+                        </th>
+                    </tr>
+                    {% set used_labels = (used_labels.push(colors.label), used_labels) %}
+                {% endif %}
+
+                {% for player in players | player_filter(status.label, position.label) %}
                     <tr>
                         <td class="p-1">{{ player.number }}</td>
                         <td class="p-1">{{ player.firstname }}</td>
