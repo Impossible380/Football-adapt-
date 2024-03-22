@@ -71,14 +71,12 @@
         <div class="modal fade text-dark" id="records_Modal" tabindex="-1" aria-labelledby="records_ModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-
                     <div class="modal-header">
                         <h3 class="modal-title" id="records_ModalLabel">Records</h3>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
 
                     <div class="modal-body">
-
                         <h4 class="mb-3">Sur gazon</h4>
                         <p>Joueur le plus capé :</p>
                         <ul>
@@ -106,14 +104,12 @@
                         <p>7 buts</p>
 
                     </div>
-
                 </div>
             </div>
         </div>
         <!-- Fin Records -->
 
         <div id="resultats_plateaux" class="row gy-4 mt-4">
-
             <h3>Liste des plateaux</h3>
 
             {% for event in events %}
@@ -137,18 +133,28 @@
                                 <h1 class="modal-title" id="{{ event.id }}_event_ModalLabel"><span class="text-capitalize">{{ event.type }}</span> {{ event.pitchType }} du {{ event.date }} à {{ event.city }}</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
+
                             <div id="{{ event.id }}_event_content" class="modal-body">
+                                {% for group in event.groups %}
+                                    <table class="border border-dark text-center w-100">
+                                        <thead>
+                                            <tr>
+                                                <th class="p-1 border border-dark">Équipe A</th>
+                                                <th class="p-1 border border-dark">Score</th>
+                                                <th class="p-1 border border-dark">Équipe B</th>
+                                            </tr>
+                                        </thead>
 
-                                <div id="{{ event.id }}_event_teams">
-
-                                </div>
-
-                                <div id="{{ event.id }}_event_groups">
-
-                                </div>
-
-                                {% for match in matches | matches_filter(event.id) %}
-                                    <p>{{ match }}</p>
+                                        <tbody>
+                                            {% for match in matches | matches_filter(event.id, group) %}
+                                                <tr>
+                                                    <td class="p-1 border border-dark">{{ match.teamA.name }}</td>
+                                                    <td class="p-1 border border-dark">{{ match.teamA.score }} - {{ match.teamB.score }}</td>
+                                                    <td class="p-1 border border-dark">{{ match.teamB.name }}</td>
+                                                </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
                                 {% endfor %}
 
                             </div>
@@ -158,7 +164,70 @@
             {% endfor %}
 
         </div>
-
     </div>
-
 </section>
+
+
+<!--
+// Start Create Ranking
+function inverseLetter(letter) {
+	return letter === 'A' ? 'B' : 'A';
+}
+
+
+function getTeamRecap(letter, match) {
+	const teamRecap = {
+		name: match[`team${letter}`],
+		matches: 1,
+		victories: match[`score${letter}`] > match[`score${inverseLetter(letter)}`] ? 1 : 0,
+		draws: match[`score${letter}`] === match[`score${inverseLetter(letter)}`] ? 1 : 0,
+		defeats: match[`score${letter}`] < match[`score${inverseLetter(letter)}`] ? 1 : 0,
+		goalsFor: match[`score${letter}`],
+		goalsAgainst: match[`score${inverseLetter(letter)}`],
+	}
+
+	teamRecap.points = teamRecap.victories * 3 + teamRecap.draws;
+  	teamRecap.goalDifference = teamRecap.goalsFor - teamRecap.goalsAgainst;
+
+	return teamRecap;
+}
+
+
+function calculateRanking(matches) {
+	let recaps = [];
+	matches.forEach((match) => {
+		recaps.push(getTeamRecap('A', match));
+		recaps.push(getTeamRecap('B', match));
+	});
+
+	let teams = recaps.reduce((accumulator, match) => {
+		let recap = accumulator.find((recap) => recap.name === match.name);
+
+		if (!recap) {
+			accumulator.push(match);
+		}
+		else {
+			recap.points += match.points;
+			recap.matches += match.matches;
+			recap.victories += match.victories;
+			recap.draws += match.draws;
+			recap.defeats += match.defeats;
+			recap.goalsFor += match.goalsFor;
+			recap.goalsAgainst += match.goalsAgainst;
+  			recap.goalDifference = recap.goalsFor - recap.goalsAgainst;
+		}
+
+		return accumulator;
+	}, []);
+
+	teams.sort((a, b) => {
+		return a.points < b.points ? 1 : a.points > b.points ? -1 :
+			(a.goalsFor - a.goalsAgainst) < (b.goalsFor - b.goalsAgainst) ? 1 :
+			(a.goalsFor - a.goalsAgainst) > (b.goalsFor - b.goalsAgainst) ? -1 :
+			a.goalsFor < b.goalsFor ? 1 : a.goalsFor > b.goalsFor ? -1 : 0;
+	});
+
+	return teams;
+}
+// End Create Ranking
+-->

@@ -10,7 +10,7 @@
     {% set used_labels = [] %}
     {% for status in statuses %}
         {% for position in positions %}
-            {% if not status.label %}
+            {% if status.label === "ancien" %}
                 {% set colors = status %}
             {% else %}
                 {% set colors = position %}
@@ -30,7 +30,7 @@
                     {% set used_labels = (used_labels.push(colors.label), used_labels) %}
                 {% endif %}
 
-                {% for player in players | players_filter(status.label, position.label) %}
+                {% for player in players | sort_by("number") | players_filter(status.label, position.label) %}
                     <tr>
                         <td class="p-1">{{ player.number }}</td>
                         <td class="p-1">{{ player.firstname }}</td>

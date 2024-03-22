@@ -8,16 +8,17 @@ module.exports = config => {
     config.addNunjucksFilter("sort_by", (array, property) => array.sort((a, b) => a[property] - b[property]));
 
     config.addNunjucksFilter("trainers_filter", (trainers, status) => {
-        return trainers.filter(trainer => trainer.inTheTeam === status)
+        return trainers.filter(trainer => trainer.status === status)
     });
 
     config.addNunjucksFilter("players_filter", (players, status, position) => {
-        return players.filter(player => player.inTheTeam === status
+        return players.filter(player => player.status === status
            && player.position === position)
     });
 
-    config.addNunjucksFilter("matches_filter", (matches, event) => {
-        return matches.filter(match => match.eventId === event)
+    config.addNunjucksFilter("matches_filter", (matches, event, group) => {
+        return matches.filter(match => match.eventId === event
+            && match.group === group)
     })
 
     return {

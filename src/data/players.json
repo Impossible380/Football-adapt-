@@ -6,7 +6,7 @@
         "position": "Gardien",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "position": "Gardien",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "position": "Défenseur",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "position": null,
         "entersAt": "22/09/2021",
         "exitsAt": "28/06/2023",
-        "inTheTeam": false
+        "status": "ancien"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "position": "Attaquant",
         "entersAt": "22/09/2021",
         "exitsAt": "14/02/2024",
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 6,
@@ -51,25 +51,25 @@
         "position": "Défenseur",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 7,
         "number": null,
-        "firstname": "Joueur_de_Chaponost",
+        "firstname": "Joueur de Chaponost",
         "position": null,
         "entersAt": "22/09/2021",
         "exitsAt": "22/06/2022",
-        "inTheTeam": false
+        "status": "ancien"
     },
     {
         "id": 8,
         "number": null,
-        "firstname": "Sosie_de_Pierre",
+        "firstname": "Sosie de Pierre",
         "position": null,
         "entersAt": "22/09/2021",
         "exitsAt": "22/06/2022",
-        "inTheTeam": false
+        "status": "ancien"
     },
     {
         "id": 9,
@@ -78,16 +78,16 @@
         "position": "Milieu",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 10,
         "number": 15,
-        "firstname": "Frédéric_Ier",
+        "firstname": "Frédéric Ier",
         "position": "Défenseur",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 11,
@@ -96,16 +96,16 @@
         "position": "Attaquant",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 12,
         "number": 3,
-        "firstname": "Alexandre_Ier",
+        "firstname": "Alexandre Ier",
         "position": "Défenseur",
         "entersAt": "21/09/2022",
         "exitsAt": null,
-        "inTheTeam": true,
+        "status": "actuel",
         "statistics": {
             "lawn": {
                 "goals":[0, 0, 1, 0],
@@ -124,11 +124,11 @@
     {
         "id": 13,
         "number": 14,
-        "firstname": "Frédéric_II",
+        "firstname": "Frédéric II",
         "position": "Défenseur",
         "entersAt": "21/09/2022",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 14,
@@ -137,7 +137,7 @@
         "position": "Défenseur",
         "entersAt": "21/09/2022",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 15,
@@ -146,7 +146,7 @@
         "position": "Milieu",
         "entersAt": "22/03/2023",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 16,
@@ -155,7 +155,7 @@
         "position": null,
         "entersAt": "03/05/2023",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 17,
@@ -164,7 +164,7 @@
         "position": "Milieu",
         "entersAt": "07/06/2023",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 18,
@@ -173,16 +173,16 @@
         "position": null,
         "entersAt": "14/06/2023",
         "exitsAt": "14/06/2023",
-        "inTheTeam": false
+        "status": "ancien"
     },
     {
         "id": 19,
         "number": null,
-        "firstname": "Alexandre_II",
+        "firstname": "Alexandre II",
         "position": null,
         "entersAt": "20/09/2023",
         "exitsAt": "27/09/2023",
-        "inTheTeam": false
+        "status": "ancien"
     },
     {
         "id": 20,
@@ -191,7 +191,7 @@
         "position": "Milieu",
         "entersAt": "20/09/2023",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 21,
@@ -200,7 +200,7 @@
         "position": "Milieu",
         "entersAt": "04/10/2023",
         "exitsAt": null,
-        "inTheTeam": true
+        "status": "actuel"
     },
     {
         "id": 22,
@@ -209,6 +209,6 @@
         "position": "Milieu",
         "entersAt": "04/10/2023",
         "exitsAt": "14/02/2024",
-        "inTheTeam": true
+        "status": "actuel"
     }
 ]

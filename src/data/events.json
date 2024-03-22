@@ -5,7 +5,8 @@
         "type": "plateau",
         "pitchType": "sur gazon",
         "place": "stade du Plan du Loup",
-        "city": "Sainte-Foy-lès-Lyon"
+        "city": "Sainte-Foy-lès-Lyon",
+        "groups": ["A"]
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "type": "plateau",
         "pitchType": "sur gazon",
         "place": "stade Robert Guivier",
-        "city": "Chaponost"
+        "city": "Chaponost",
+        "groups": ["A", "B", "Classement"]
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "type": "plateau",
         "pitchType": "sur gazon",
         "place": "stade Camille Ninel",
-        "city": "Écully"
+        "city": "Écully",
+        "groups": ["A", "B"]
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "type": "plateau",
         "pitchType": "en salle",
         "place": "gymnase Alain Mimoun",
-        "city": "Brindas"
+        "city": "Brindas",
+        "groups": ["A", "B"]
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "type": "plateau",
         "pitchType": "en salle",
         "place": "gymnase Montfray Sports",
-        "city": "Villefranche-sur-Saône"
+        "city": "Villefranche-sur-Saône",
+        "groups": ["A"]
     },
     {
         "id": 6,
@@ -45,6 +50,7 @@
         "type": "matchs amicaux",
         "pitchType": "sur gazon",
         "place": "stade du Plan du Loup",
-        "city": "Sainte-Foy-lès-Lyon"
+        "city": "Sainte-Foy-lès-Lyon",
+        "groups": ["A"]
     }
 ]

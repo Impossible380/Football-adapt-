@@ -1,7 +1,7 @@
 [
     {
         "eventId": 1,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 0,
@@ -15,7 +15,7 @@
     },
     {
         "eventId": 1,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "ES Chaponost A",
             "score": 7
@@ -27,7 +27,7 @@
     },
     {
         "eventId": 1,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 0,
@@ -41,7 +41,7 @@
     },
     {
         "eventId": 1,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully A",
             "score": 8
@@ -53,7 +53,7 @@
     },
     {
         "eventId": 1,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "ES Chaponost A",
             "score": 5
@@ -65,7 +65,7 @@
     },
     {
         "eventId": 1,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 3,
@@ -79,7 +79,7 @@
     },
     {
         "eventId": 1,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "ES Chaponost A",
             "score": 4
@@ -91,7 +91,7 @@
     },
     {
         "eventId": 1,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "ES Chaponost B",
             "score": 8
@@ -103,7 +103,7 @@
     },
     {
         "eventId": 1,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 0,
@@ -117,7 +117,7 @@
     },
     {
         "eventId": 1,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "ES Chaponost B",
             "score": 3
@@ -129,7 +129,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "ES Chaponost A",
             "score": 10
@@ -141,7 +141,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully B",
             "score": 1
@@ -155,7 +155,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "ES Chaponost A",
             "score": 13
@@ -167,7 +167,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Pays Viennois",
             "score": 1
@@ -181,7 +181,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "ES Chaponost A",
             "score": 7
@@ -195,7 +195,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully B",
             "score": 0
@@ -207,7 +207,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "ES Chaponost B",
             "score": 11
@@ -219,7 +219,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "AS Écully A",
             "score": 2
@@ -231,7 +231,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "ES Chaponost B",
             "score": 4
@@ -243,7 +243,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "ES Chaponost C",
             "score": 8
@@ -255,7 +255,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "ES Chaponost B",
             "score": 4
@@ -267,7 +267,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "AS Écully A",
             "score": 4
@@ -279,7 +279,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "Classement",
+        "group": "Classement",
         "teamA": {
             "name": "ES Chaponost A",
             "score": 2
@@ -291,7 +291,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "Classement",
+        "group": "Classement",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 0,
@@ -305,7 +305,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "Classement",
+        "group": "Classement",
         "teamA": {
             "name": "FC Pays Viennois",
             "score": 0
@@ -317,7 +317,7 @@
     },
     {
         "eventId": 2,
-        "groupe": "Classement",
+        "group": "Classement",
         "teamA": {
             "name": "AS Écully B",
             "score": 0
@@ -329,7 +329,7 @@
     },
     {
         "eventId": 3,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully A",
             "score": 0
@@ -341,7 +341,7 @@
     },
     {
         "eventId": 3,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "ES Chaponost B",
             "score": 5
@@ -353,7 +353,7 @@
     },
     {
         "eventId": 3,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully A",
             "score": 0
@@ -365,7 +365,7 @@
     },
     {
         "eventId": 3,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "ES Chaponost A",
             "score": 7
@@ -377,7 +377,7 @@
     },
     {
         "eventId": 3,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully A",
             "score": 0
@@ -389,7 +389,7 @@
     },
     {
         "eventId": 3,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "ES Chaponost A",
             "score": 3
@@ -401,7 +401,7 @@
     },
     {
         "eventId": 3,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "AS Écully B",
             "score": 0
@@ -413,7 +413,7 @@
     },
     {
         "eventId": 3,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 2,
@@ -427,7 +427,7 @@
     },
     {
         "eventId": 3,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "AS Écully B",
             "score": 0
@@ -439,7 +439,7 @@
     },
     {
         "eventId": 3,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "ES Chaponost C",
             "score": 0
@@ -453,7 +453,7 @@
     },
     {
         "eventId": 3,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "AS Écully B",
             "score": 1
@@ -467,7 +467,7 @@
     },
     {
         "eventId": 3,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "ES Chaponost C",
             "score": 2
@@ -479,7 +479,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "SC Ouest Lyonnais C",
             "score": 4
@@ -491,7 +491,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 0,
@@ -505,7 +505,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche",
             "score": 0
@@ -517,7 +517,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "SC Ouest Lyonnais C",
             "score": 0
@@ -531,7 +531,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "Saône Mont d'Or FC A",
             "score": 0
@@ -543,7 +543,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche",
             "score": 0
@@ -555,7 +555,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "SC Ouest Lyonnais C",
             "score": 3
@@ -567,7 +567,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 6,
@@ -581,7 +581,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche",
             "score": 2
@@ -593,7 +593,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "SC Ouest Lyonnais C",
             "score": 2
@@ -605,7 +605,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 2,
@@ -619,7 +619,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "Saône Mont d'Or FC A",
             "score": 1
@@ -631,7 +631,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "SC Ouest Lyonnais C",
             "score": 6
@@ -643,7 +643,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 1,
@@ -657,7 +657,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "CO St-Fons",
             "score": 4
@@ -669,7 +669,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
             "score": 4
@@ -681,7 +681,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais B",
             "score": 9
@@ -693,7 +693,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais D",
             "score": 0
@@ -705,7 +705,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "AS Écully B",
             "score": 0
@@ -717,7 +717,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
             "score": 11
@@ -729,7 +729,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais B",
             "score": 8
@@ -741,7 +741,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais D",
             "score": 0
@@ -753,7 +753,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "AS Écully A",
             "score": 4
@@ -765,7 +765,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
             "score": 6
@@ -777,7 +777,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais B",
             "score": 1
@@ -789,7 +789,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "AS Écully B",
             "score": 1
@@ -801,7 +801,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Bron Terraillon",
             "score": 3
@@ -813,7 +813,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
             "score": 8
@@ -825,7 +825,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais B",
             "score": 3
@@ -837,7 +837,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais D",
             "score": 4
@@ -849,7 +849,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "AS Écully A",
             "score": 6
@@ -861,7 +861,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
             "score": 1
@@ -873,7 +873,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais D",
             "score": 1
@@ -885,7 +885,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "AS Écully A",
             "score": 8
@@ -897,7 +897,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "AS Écully B",
             "score": 0
@@ -909,7 +909,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
             "score": 3
@@ -921,7 +921,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais B",
             "score": 6
@@ -933,7 +933,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais D",
             "score": 3
@@ -945,7 +945,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "Saône Mont d'Or FC B",
             "score": 0
@@ -957,7 +957,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
             "score": 9
@@ -969,7 +969,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais B",
             "score": 4
@@ -981,7 +981,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "AS Écully A",
             "score": 1
@@ -993,7 +993,7 @@
     },
     {
         "eventId": 4,
-        "groupe": "B",
+        "group": "B",
         "teamA": {
             "name": "Saône Mont d'Or FC B",
             "score": 0
@@ -1005,7 +1005,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche A",
             "score": 3
@@ -1017,7 +1017,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche B",
             "score": 0
@@ -1029,7 +1029,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully A",
             "score": 4
@@ -1041,7 +1041,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche A",
             "score": 2
@@ -1055,7 +1055,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully A",
             "score": 3
@@ -1067,7 +1067,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche B",
             "score": 0
@@ -1079,7 +1079,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully B",
             "score": 1
@@ -1093,7 +1093,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche A",
             "score": 3
@@ -1105,7 +1105,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche B",
             "score": 1
@@ -1119,7 +1119,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully A",
             "score": 5
@@ -1131,7 +1131,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "SC Bron Terraillon",
             "score": 2
@@ -1143,7 +1143,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully A",
             "score": 1
@@ -1157,7 +1157,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche A",
             "score": 8
@@ -1169,7 +1169,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche B",
             "score": 0
@@ -1181,7 +1181,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche A",
             "score": 0
@@ -1193,7 +1193,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Sud-Ouest 69",
             "score": 3
@@ -1207,7 +1207,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully B",
             "score": 0
@@ -1219,7 +1219,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche B",
             "score": 0
@@ -1231,7 +1231,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Villefranche A",
             "score": 8
@@ -1243,7 +1243,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "SC Bron Terraillon",
             "score": 3
@@ -1257,7 +1257,7 @@
     },
     {
         "eventId": 5,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "AS Écully B",
             "score": 1
@@ -1269,7 +1269,7 @@
     },
     {
         "eventId": 6,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 1,
@@ -1283,7 +1283,7 @@
     },
     {
         "eventId": 6,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 1,
@@ -1297,7 +1297,7 @@
     },
     {
         "eventId": 6,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 3,
@@ -1311,7 +1311,7 @@
     },
     {
         "eventId": 6,
-        "groupe": "A",
+        "group": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 0,

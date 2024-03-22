@@ -1,22 +1,5 @@
-function createPlayer(number, firstname, position, startingDate, endingDate, status,
-						lawnGoals, lawnMatches, lawnConcededGoals, lawnMatchesGoalkeeper,
-						indoorGoals, indoorMatches, indoorConcededGoals, indoorMatchesGoalkeeper) {
-
-	return {"number": number, "firstname": firstname, "position": position, "startingDate": startingDate, "endingDate": endingDate, "status": status,
-			"lawn": {"scorer": {"goals": lawnGoals, "matches": lawnMatches},
-					"goalkeeper": {/*conceded*/"goals": lawnConcededGoals, "matches"/*as goalkeeper*/: lawnMatchesGoalkeeper}},
-			"indoor": {"scorer": {"goals": indoorGoals, "matches": indoorMatches},
-					"goalkeeper": {/*conceded*/"goals": indoorConcededGoals, "matches"/*as goalkeeper*/: indoorMatchesGoalkeeper}}};
-}
-
-
 function createMatch(teamA, teamB, scoreA, scoreB, certainty) {
 	return {"teamA": teamA, "teamB": teamB, "scoreA": scoreA, "scoreB": scoreB, "certainty": certainty};
-}
-
-
-function createPlayerRankings(id, category, type, date) {
-	return {"id": id, "category": category, "type": type, "date": date};
 }
 
 
