@@ -1,12 +1,12 @@
 [
     {
-        "event": "2023-02-04",
+        "eventId": 1,
         "groupe": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 0,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {},
+            "concededGoals": {"Damien": 7}
         },
         "teamB": {
             "name": "AS Écully A",
@@ -14,7 +14,7 @@
         }
     },
     {
-        "event": "2023-02-04",
+        "eventId": 1,
         "groupe": "A",
         "teamA": {
             "name": "ES Chaponost A",
@@ -26,13 +26,13 @@
         }
     },
     {
-        "event": "2023-02-04",
+        "eventId": 1,
         "groupe": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 0,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {},
+            "concededGoals": {"Damien": 9}
         },
         "teamB": {
             "name": "ES Chaponost B",
@@ -40,7 +40,7 @@
         }
     },
     {
-        "event": "2023-02-04",
+        "eventId": 1,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully A",
@@ -52,7 +52,7 @@
         }
     },
     {
-        "event": "2023-02-04",
+        "eventId": 1,
         "groupe": "A",
         "teamA": {
             "name": "ES Chaponost A",
@@ -64,12 +64,12 @@
         }
     },
     {
-        "event": "2023-02-04",
+        "eventId": 1,
         "groupe": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 3,
-            "scorer": [],
+            "scorers": {"Pierre": 3},
             "concededGoals": {}
         },
         "teamB": {
@@ -78,7 +78,7 @@
         }
     },
     {
-        "event": "2023-02-04",
+        "eventId": 1,
         "groupe": "A",
         "teamA": {
             "name": "ES Chaponost A",
@@ -90,7 +90,7 @@
         }
     },
     {
-        "event": "2023-02-04",
+        "eventId": 1,
         "groupe": "A",
         "teamA": {
             "name": "ES Chaponost B",
@@ -102,13 +102,13 @@
         }
     },
     {
-        "event": "2023-02-04",
+        "eventId": 1,
         "groupe": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 0,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {},
+            "concededGoals": {"Damien": 5, "Frédéric II": 2}
         },
         "teamB": {
             "name": "ES Chaponost A",
@@ -116,7 +116,7 @@
         }
     },
     {
-        "event": "2023-02-04",
+        "eventId": 1,
         "groupe": "A",
         "teamA": {
             "name": "ES Chaponost B",
@@ -128,7 +128,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "A",
         "teamA": {
             "name": "ES Chaponost A",
@@ -140,7 +140,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully B",
@@ -149,12 +149,12 @@
         "teamB": {
             "name": "FC Ste-Foy",
             "score": 7,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {"Mounir": 3, "Pierre": 2, "Jebrine": 1, "Junior": 1},
+            "concededGoals": {"Fabien": 1}
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "A",
         "teamA": {
             "name": "ES Chaponost A",
@@ -166,7 +166,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "A",
         "teamA": {
             "name": "FC Pays Viennois",
@@ -175,26 +175,26 @@
         "teamB": {
             "name": "FC Ste-Foy",
             "score": 7,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {"Fabien": 3, "Jebrine": 1, "Mounir": 1, "Philippe": 1, "Pierre": 1},
+            "concededGoals": {"Damien": 1}
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "A",
         "teamA": {
             "name": "ES Chaponost A",
-            "score": 5
+            "score": 7
         },
         "teamB": {
             "name": "FC Ste-Foy",
-            "score": 1,
-            "scorer": [],
-            "concededGoals": {}
+            "score": 0,
+            "scorers": {},
+            "concededGoals": {"Damien": 7}
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully B",
@@ -206,7 +206,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "B",
         "teamA": {
             "name": "ES Chaponost B",
@@ -218,7 +218,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "B",
         "teamA": {
             "name": "AS Écully A",
@@ -230,7 +230,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "B",
         "teamA": {
             "name": "ES Chaponost B",
@@ -242,7 +242,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "B",
         "teamA": {
             "name": "ES Chaponost C",
@@ -254,7 +254,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "B",
         "teamA": {
             "name": "ES Chaponost B",
@@ -266,7 +266,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "B",
         "teamA": {
             "name": "AS Écully A",
@@ -278,7 +278,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "Classement",
         "teamA": {
             "name": "ES Chaponost A",
@@ -290,13 +290,13 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "Classement",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 0,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {},
+            "concededGoals": {"Fabien": 3}
         },
         "teamB": {
             "name": "AS Écully B",
@@ -304,7 +304,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "Classement",
         "teamA": {
             "name": "FC Pays Viennois",
@@ -316,7 +316,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 2,
         "groupe": "Classement",
         "teamA": {
             "name": "AS Écully B",
@@ -328,7 +328,7 @@
         }
     },
     {
-        "event": "2023-10-21",
+        "eventId": 3,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully A",
@@ -340,7 +340,7 @@
         }
     },
     {
-        "event": "2023-10-21",
+        "eventId": 3,
         "groupe": "A",
         "teamA": {
             "name": "ES Chaponost B",
@@ -352,7 +352,7 @@
         }
     },
     {
-        "event": "2023-10-21",
+        "eventId": 3,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully A",
@@ -364,7 +364,7 @@
         }
     },
     {
-        "event": "2023-10-21",
+        "eventId": 3,
         "groupe": "A",
         "teamA": {
             "name": "ES Chaponost A",
@@ -376,7 +376,7 @@
         }
     },
     {
-        "event": "2023-10-21",
+        "eventId": 3,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully A",
@@ -388,7 +388,7 @@
         }
     },
     {
-        "event": "2023-10-21",
+        "eventId": 3,
         "groupe": "A",
         "teamA": {
             "name": "ES Chaponost A",
@@ -400,7 +400,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 3,
         "groupe": "B",
         "teamA": {
             "name": "AS Écully B",
@@ -412,13 +412,13 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 3,
         "groupe": "B",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 2,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {"Mounir": 1, "Philippe": 1},
+            "concededGoals": {"Fabien": 2}
         },
         "teamB": {
             "name": "Saône Mont d'Or FC",
@@ -426,7 +426,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 3,
         "groupe": "B",
         "teamA": {
             "name": "AS Écully B",
@@ -438,7 +438,7 @@
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 3,
         "groupe": "B",
         "teamA": {
             "name": "ES Chaponost C",
@@ -447,12 +447,12 @@
         "teamB": {
             "name": "FC Ste-Foy",
             "score": 2,
-            "scorer": [],
+            "scorers": {"Pierre": 1, "Redha": 1},
             "concededGoals": {}
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 3,
         "groupe": "B",
         "teamA": {
             "name": "AS Écully B",
@@ -461,12 +461,12 @@
         "teamB": {
             "name": "FC Ste-Foy",
             "score": 7,
-            "scorer": [],
+            "scorers": {"Mounir": 3, "Pierre": 1, "Redha": 1, "Pablo": 1, "Alexandre Ier": 1},
             "concededGoals": {}
         }
     },
     {
-        "event": "2023-04-29",
+        "eventId": 3,
         "groupe": "B",
         "teamA": {
             "name": "ES Chaponost C",
@@ -478,7 +478,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "SC Ouest Lyonnais C",
@@ -490,13 +490,13 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 0,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {},
+            "concededGoals": {"Damien": 1}
         },
         "teamB": {
             "name": "CO St-Fons",
@@ -504,7 +504,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche",
@@ -516,7 +516,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "SC Ouest Lyonnais C",
@@ -525,12 +525,12 @@
         "teamB": {
             "name": "FC Ste-Foy",
             "score": 2,
-            "scorer": [],
+            "scorers": {"Mounir": 2},
             "concededGoals": {}
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "Saône Mont d'Or FC A",
@@ -542,7 +542,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche",
@@ -554,7 +554,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "SC Ouest Lyonnais C",
@@ -566,12 +566,12 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 6,
-            "scorer": [],
+            "scorers": {"Redha": 5, "Mounir": 1},
             "concededGoals": {}
         },
         "teamB": {
@@ -580,7 +580,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche",
@@ -592,7 +592,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "SC Ouest Lyonnais C",
@@ -604,13 +604,13 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 2,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {"Mounir": 1, "Redha": 1},
+            "concededGoals": {"Damien": 2}
         },
         "teamB": {
             "name": "FC Villefranche",
@@ -618,7 +618,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "Saône Mont d'Or FC A",
@@ -630,7 +630,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "SC Ouest Lyonnais C",
@@ -642,12 +642,12 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 1,
-            "scorer": [],
+            "scorers": {"Redha": 1},
             "concededGoals": {}
         },
         "teamB": {
@@ -656,7 +656,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "A",
         "teamA": {
             "name": "CO St-Fons",
@@ -668,7 +668,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
@@ -680,7 +680,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais B",
@@ -692,7 +692,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais D",
@@ -704,7 +704,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "AS Écully B",
@@ -716,7 +716,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
@@ -728,7 +728,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais B",
@@ -740,7 +740,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais D",
@@ -752,7 +752,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "AS Écully A",
@@ -764,7 +764,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
@@ -776,7 +776,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais B",
@@ -788,7 +788,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "AS Écully B",
@@ -800,7 +800,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Bron Terraillon",
@@ -812,7 +812,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
@@ -824,7 +824,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais B",
@@ -836,7 +836,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais D",
@@ -848,7 +848,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "AS Écully A",
@@ -860,7 +860,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
@@ -872,7 +872,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais D",
@@ -884,7 +884,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "AS Écully A",
@@ -896,7 +896,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "AS Écully B",
@@ -908,7 +908,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
@@ -920,7 +920,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais B",
@@ -932,7 +932,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais D",
@@ -944,7 +944,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "Saône Mont d'Or FC B",
@@ -956,7 +956,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais A",
@@ -968,7 +968,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "SC Ouest Lyonnais B",
@@ -980,7 +980,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "AS Écully A",
@@ -992,7 +992,7 @@
         }
     },
     {
-        "event": "2023-12-02",
+        "eventId": 4,
         "groupe": "B",
         "teamA": {
             "name": "Saône Mont d'Or FC B",
@@ -1004,7 +1004,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche A",
@@ -1016,7 +1016,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche B",
@@ -1028,7 +1028,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully A",
@@ -1040,7 +1040,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche A",
@@ -1049,12 +1049,12 @@
         "teamB": {
             "name": "FC Ste-Foy",
             "score": 0,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {},
+            "concededGoals": {"Damien": 2}
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully A",
@@ -1066,7 +1066,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche B",
@@ -1078,7 +1078,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully B",
@@ -1087,12 +1087,12 @@
         "teamB": {
             "name": "FC Ste-Foy",
             "score": 3,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {"Pierre": 2, "Damien": 1},
+            "concededGoals": {"Fabien": 1}
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche A",
@@ -1104,7 +1104,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche B",
@@ -1113,12 +1113,12 @@
         "teamB": {
             "name": "FC Ste-Foy",
             "score": 7,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {"Pierre": 4, "Fabien": 2, "Christophe": 1},
+            "concededGoals": {"Damien": 1}
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully A",
@@ -1130,7 +1130,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "SC Bron Terraillon",
@@ -1142,7 +1142,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully A",
@@ -1151,12 +1151,12 @@
         "teamB": {
             "name": "FC Ste-Foy",
             "score": 0,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {},
+            "concededGoals": {"Fabien": 1}
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche A",
@@ -1168,7 +1168,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche B",
@@ -1180,7 +1180,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche A",
@@ -1192,7 +1192,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "FC Sud-Ouest 69",
@@ -1201,12 +1201,12 @@
         "teamB": {
             "name": "FC Ste-Foy",
             "score": 0,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {},
+            "concededGoals": {"Fabien": 3}
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully B",
@@ -1218,7 +1218,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche B",
@@ -1230,7 +1230,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "FC Villefranche A",
@@ -1242,7 +1242,7 @@
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "SC Bron Terraillon",
@@ -1251,12 +1251,12 @@
         "teamB": {
             "name": "FC Ste-Foy",
             "score": 1,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {"Fabien": 1},
+            "concededGoals": {"Damien": 3}
         }
     },
     {
-        "event": "2024-01-20",
+        "eventId": 5,
         "groupe": "A",
         "teamA": {
             "name": "AS Écully B",
@@ -1268,13 +1268,13 @@
         }
     },
     {
-        "event": "2024-02-18",
+        "eventId": 6,
         "groupe": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 1,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {"Pierre": 1},
+            "concededGoals": {"Fabien": 4, "Damien": 1}
         },
         "teamB": {
             "name": "CO St-Fons",
@@ -1282,13 +1282,13 @@
         }
     },
     {
-        "event": "2024-02-18",
+        "eventId": 6,
         "groupe": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 1,
-            "scorer": [],
-            "concededGoals": {}
+            "scorers": {"Pablo": 1},
+            "concededGoals": {"Damien": 3}
         },
         "teamB": {
             "name": "CO St-Fons",
@@ -1296,12 +1296,12 @@
         }
     },
     {
-        "event": "2024-02-18",
+        "eventId": 6,
         "groupe": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 3,
-            "scorer": [],
+            "scorers": {"Pierre": 1, "Fabien": 1, "Redha": 1},
             "concededGoals": {}
         },
         "teamB": {
@@ -1310,12 +1310,12 @@
         }
     },
     {
-        "event": "2024-02-18",
+        "eventId": 6,
         "groupe": "A",
         "teamA": {
             "name": "FC Ste-Foy",
             "score": 0,
-            "scorer": [],
+            "scorers": {},
             "concededGoals": {}
         },
         "teamB": {

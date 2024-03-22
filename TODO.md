@@ -18,15 +18,15 @@ npx @11ty/eleventy --serve
 # 18/03/2024
 ## pendant la session
 * gérer le coté data pour les membres de l'équipe
-## prochaine session 
+## prochaine session
 * Corriger le problème des joueurs ancien
-## A faire 
+## A faire
 * Gérer les entraineurs comme les joueurs
 
 # 21/03/2024
 ## pendant la session
 * travailler sur la structure des données events & matches
-## A faire 
+## A faire
 * remplir les données des 26 matches de ton équipe
 * essayer de créer les filtres dans eleventy.js pour faire les calculs de stats.
-## prochaine session 
+## prochaine session

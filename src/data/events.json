@@ -1,43 +1,49 @@
 [
     {
+        "id": 1,
         "date": "2023-02-04",
         "type": "plateau",
-        "field": "sur gazon",
+        "pitchType": "sur gazon",
         "place": "stade du Plan du Loup",
         "city": "Sainte-Foy-lès-Lyon"
     },
     {
+        "id": 2,
         "date": "2023-04-29",
         "type": "plateau",
-        "field": "sur gazon",
+        "pitchType": "sur gazon",
         "place": "stade Robert Guivier",
         "city": "Chaponost"
     },
     {
+        "id": 3,
         "date": "2023-10-21",
         "type": "plateau",
-        "field": "sur gazon",
+        "pitchType": "sur gazon",
         "place": "stade Camille Ninel",
         "city": "Écully"
     },
     {
+        "id": 4,
         "date": "2023-12-02",
         "type": "plateau",
-        "field": "en salle",
+        "pitchType": "en salle",
         "place": "gymnase Alain Mimoun",
         "city": "Brindas"
     },
     {
+        "id": 5,
         "date": "2024-01-20",
         "type": "plateau",
-        "field": "en salle",
+        "pitchType": "en salle",
         "place": "gymnase Montfray Sports",
         "city": "Villefranche-sur-Saône"
     },
     {
+        "id": 6,
         "date": "2024-02-18",
         "type": "matchs amicaux",
-        "field": "sur gazon",
+        "pitchType": "sur gazon",
         "place": "stade du Plan du Loup",
         "city": "Sainte-Foy-lès-Lyon"
     }

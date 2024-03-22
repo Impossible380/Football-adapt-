@@ -1,11 +1,11 @@
 [
     {
-        "label": "actuel",
+        "label": true,
         "textColor": "white",
         "bgColor": "success"
     },
     {
-        "label": "ancien",
+        "label": false,
         "textColor": "white",
         "bgColor": "dark"
     }

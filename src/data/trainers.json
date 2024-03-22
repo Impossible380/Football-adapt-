@@ -4,34 +4,34 @@
         "firstname": "Gianni",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 2,
         "firstname": "Ali",
         "entersAt": "22/09/2021",
         "exitsAt": "22/06/2022",
-        "status": "ancien"
+        "inTheTeam": false
     },
     {
         "id": 3,
         "firstname": "Thibault",
         "entersAt": "05/10/2022",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 4,
         "firstname": "Riyad",
         "entersAt": "11/01/2023",
         "exitsAt": "05/04/2023",
-        "status": "ancien"
+        "inTheTeam": false
     },
     {
         "id": 5,
         "firstname": "Adam",
         "entersAt": "29/04/2023",
         "exitsAt": "29/04/2023",
-        "status": "ancien"
+        "inTheTeam": false
     }
 ]

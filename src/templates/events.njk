@@ -3,9 +3,9 @@
 
         <h2 class="titre-header fw-bold mb-5 text-center">Les plateaux</h2>
 
-        <p>Les plateaux ont lieu le samedi. Sur gazon, les matchs se jouent en 7 contre 7 et durent 20 minutes tandis qu'en salle, ils se jouent en 5 contre 5 et durent 10 minutes.</p><br /><br />
+        <p>Les plateaux ont lieu le samedi. Sur gazon, les matchs se jouent en 7 contre 7 et durent 20 minutes tandis qu'en salle, ils se jouent en 5 contre 5 et durent 10 minutes.</p>
 
-        <h3 class="mb-3">Statistiques et records du club</h3>
+        <h3 class="mt-4 mb-3">Statistiques et records du club</h3>
 
         <!-- Début Statistiques -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#statistiques_Modal">
@@ -115,6 +115,47 @@
         <div id="resultats_plateaux" class="row gy-4 mt-4">
 
             <h3>Liste des plateaux</h3>
+
+            {% for event in events %}
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="assets/images/{{ event.category }}_{{ event.date }}_ensemble.jpg" class="card-img-top" alt="image d'ensemble du (des) {{ event.category }} du {{ event.date }}">
+
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="text-capitalize">{{ event.type }}</span> du {{ event.date }}</h5>
+                            <p class="card-text">Type : {{ event.type }}<br/>Date : {{ event.date }}<br/>Lieu : {{ event.place }} ({{ event.city }})</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{{ event.id }}_event_Modal">Résultats</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade text-dark" id="{{ event.id }}_event_Modal" tabindex="-1" aria-labelledby="{{ event.id }}_event_ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="{{ event.id }}_event_ModalLabel"><span class="text-capitalize">{{ event.type }}</span> {{ event.pitchType }} du {{ event.date }} à {{ event.city }}</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div id="{{ event.id }}_event_content" class="modal-body">
+
+                                <div id="{{ event.id }}_event_teams">
+
+                                </div>
+
+                                <div id="{{ event.id }}_event_groups">
+
+                                </div>
+
+                                {% for match in matches | matches_filter(event.id) %}
+                                    <p>{{ match }}</p>
+                                {% endfor %}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
 
         </div>
 

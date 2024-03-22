@@ -5,8 +5,8 @@
         "firstname": "Damien",
         "position": "Gardien",
         "entersAt": "22/09/2021",
-        "exitsAt": "14/02/2024",
-        "status": "actuel"
+        "exitsAt": null,
+        "inTheTeam": true
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "position": "Gardien",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 3,
@@ -23,8 +23,8 @@
         "firstname": "Jebrine",
         "position": "Défenseur",
         "entersAt": "22/09/2021",
-        "exitsAt": "14/02/2024",
-        "status": "actuel"
+        "exitsAt": null,
+        "inTheTeam": true
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "position": null,
         "entersAt": "22/09/2021",
         "exitsAt": "28/06/2023",
-        "status": "ancien"
+        "inTheTeam": false
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "position": "Attaquant",
         "entersAt": "22/09/2021",
         "exitsAt": "14/02/2024",
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "position": "Défenseur",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "position": null,
         "entersAt": "22/09/2021",
         "exitsAt": "22/06/2022",
-        "status": "ancien"
+        "inTheTeam": false
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "position": null,
         "entersAt": "22/09/2021",
         "exitsAt": "22/06/2022",
-        "status": "ancien"
+        "inTheTeam": false
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "position": "Milieu",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "position": "Défenseur",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "position": "Attaquant",
         "entersAt": "22/09/2021",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "position": "Défenseur",
         "entersAt": "21/09/2022",
         "exitsAt": null,
-        "status": "actuel",
+        "inTheTeam": true,
         "statistics": {
             "lawn": {
                 "goals":[0, 0, 1, 0],
@@ -128,7 +128,7 @@
         "position": "Défenseur",
         "entersAt": "21/09/2022",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 14,
@@ -137,7 +137,7 @@
         "position": "Défenseur",
         "entersAt": "21/09/2022",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 15,
@@ -146,7 +146,7 @@
         "position": "Milieu",
         "entersAt": "22/03/2023",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 16,
@@ -155,7 +155,7 @@
         "position": null,
         "entersAt": "03/05/2023",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 17,
@@ -164,7 +164,7 @@
         "position": "Milieu",
         "entersAt": "07/06/2023",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 18,
@@ -173,7 +173,7 @@
         "position": null,
         "entersAt": "14/06/2023",
         "exitsAt": "14/06/2023",
-        "status": "ancien"
+        "inTheTeam": false
     },
     {
         "id": 19,
@@ -182,7 +182,7 @@
         "position": null,
         "entersAt": "20/09/2023",
         "exitsAt": "27/09/2023",
-        "status": "ancien"
+        "inTheTeam": false
     },
     {
         "id": 20,
@@ -191,7 +191,7 @@
         "position": "Milieu",
         "entersAt": "20/09/2023",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 21,
@@ -200,7 +200,7 @@
         "position": "Milieu",
         "entersAt": "04/10/2023",
         "exitsAt": null,
-        "status": "actuel"
+        "inTheTeam": true
     },
     {
         "id": 22,
@@ -209,6 +209,6 @@
         "position": "Milieu",
         "entersAt": "04/10/2023",
         "exitsAt": "14/02/2024",
-        "status": "actuel"
+        "inTheTeam": true
     }
 ]

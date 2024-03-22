@@ -6,7 +6,6 @@
         </tr>
     </thead>
 
-    
     {% for status in statuses %}
         {% if status.textColor and status.bgColor %}
             {% set colors = status %}
@@ -19,7 +18,7 @@
                     {{ colors.label }}
                 </th>
             </tr>
-            {% for trainer in trainers | trainer_filter(status.label) %}
+            {% for trainer in trainers | trainers_filter(status.label) %}
                 <tr>
                     <td class="p-1">{{ trainer.firstname }}</td>
                     <td class="p-1">{{ trainer.entersAt }} - {{ trainer.exitsAt }}</td>
@@ -27,5 +26,4 @@
             {% endfor %}
         </tbody>
     {% endfor %}
-
 </table>
