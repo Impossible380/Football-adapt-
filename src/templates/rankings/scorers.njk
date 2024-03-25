@@ -1,0 +1,68 @@
+<a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#classements_buteurs_Modal">Buteurs</a>
+
+<!-- Modal -->
+<div class="modal fade text-dark" id="classements_buteurs_Modal" tabindex="-1" aria-labelledby="classements_buteurs_ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title" id="classements_buteurs_ModalLabel">Classements des buteurs</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <h2 class="mb-3">Sur gazon</h2>
+
+                <table class="w-100 text-center">
+                    <thead> <!-- En-tête du tableau -->
+                        <tr>
+                            <th class="p-1 border border-dark">Rang</th>
+                            <th class="p-1 border border-dark">Prénom</th>
+                            <th class="p-1 border border-dark text-danger">Buts</th>
+                            <th class="p-1 border border-dark text-primary">Matchs</th>
+                            <th class="p-1 border border-dark">Moy. B/M</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="lawn_scorer_table"> 
+                    
+                        {% for scorer in matches | scorer_ranking_filter() %}
+                            <tr>
+                                <td class="p-1 border border-dark">{{ match.eventId }}</td>
+                                <td class="p-1 border border-dark">{{ match.group }}</td>
+                                <td class="p-1 border border-dark">{{ scorer.scorer }}</td>
+                                <td class="p-1 border border-dark">{{ scorer.goals }}</td>
+                                <td class="p-1 border border-dark">{{ match.teamA.scorers }} - {{ match.teamB.concededGoals }}</td>
+                            </tr>
+                        {% endfor %}
+                        
+                    </tbody>
+                </table>
+                
+                <h2 class="mt-4 mb-3">En salle</h2>
+                <table class="w-100 text-center">
+                    <thead> <!-- En-tête du tableau -->
+                        <tr>
+                            <th class="p-1 border border-dark">Rang</th>
+                            <th class="p-1 border border-dark">Prénom</th>
+                            <th class="p-1 border border-dark text-danger">Buts</th>
+                            <th class="p-1 border border-dark text-primary">Matchs</th>
+                            <th class="p-1 border border-dark">Moy. B/M</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="indoor_scorer_table"> <!-- Corps du tableau -->
+                        
+                    </tbody>
+                </table>
+            
+                <h2 class="mt-4 mb-3">Notes des entraîneurs</h2>
+                <p>Les statistiques concernent les matchs en tant qu'entraîneur principal.</p>
+                <p>Lors du plateau du 20 janvier 2024 à Villefranche-sur-Saône, Thibault a été l'unique entraîneur lors des 3 premiers matchs tandis que Gianni l'a rejoint et a été l'entraîneur principal pour les 3 suivants. Il y a eu 1 défaite puis 2 victoires avec le premier tandis qu'il y a eu 3 défaites avec le second.</p>
+
+                <h2 class="mt-4 mb-3">Notes des joueurs</h2>
+                <p>* Junior a quitté l'équipe.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
