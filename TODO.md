@@ -30,3 +30,11 @@ npx @11ty/eleventy --serve
 * remplir les données des 26 matches de ton équipe
 * essayer de créer les filtres dans eleventy.js pour faire les calculs de stats.
 ## prochaine session
+
+
+# 25/03/2024 (noté par Imp 380)
+# pendant la session
+* faire le classement des buteurs
+## A faire
+* faire le classement des gardiens
+## prochaine session
