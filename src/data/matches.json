@@ -6,7 +6,7 @@
             "name": "FC Ste-Foy",
             "score": 0,
             "scorers": {},
-            "concededGoals": {"Damien": 7}
+            "goalkeepers": {"Damien": 7}
         },
         "teamB": {
             "name": "AS Écully A",
@@ -32,7 +32,7 @@
             "name": "FC Ste-Foy",
             "score": 0,
             "scorers": {},
-            "concededGoals": {"Damien": 9}
+            "goalkeepers": {"Damien": 9}
         },
         "teamB": {
             "name": "ES Chaponost B",
@@ -70,7 +70,7 @@
             "name": "FC Ste-Foy",
             "score": 3,
             "scorers": {"Pierre": 3},
-            "concededGoals": {}
+            "goalkeepers": {}
         },
         "teamB": {
             "name": "AS Écully B",
@@ -108,7 +108,7 @@
             "name": "FC Ste-Foy",
             "score": 0,
             "scorers": {},
-            "concededGoals": {"Damien": 5, "Frédéric II": 2}
+            "goalkeepers": {"Damien": 5, "Frédéric II": 2}
         },
         "teamB": {
             "name": "ES Chaponost A",
@@ -150,7 +150,7 @@
             "name": "FC Ste-Foy",
             "score": 7,
             "scorers": {"Mounir": 3, "Pierre": 2, "Jebrine": 1, "Junior": 1},
-            "concededGoals": {"Fabien": 1}
+            "goalkeepers": {"Fabien": 1}
         }
     },
     {
@@ -176,7 +176,7 @@
             "name": "FC Ste-Foy",
             "score": 7,
             "scorers": {"Fabien": 3, "Jebrine": 1, "Mounir": 1, "Philippe": 1, "Pierre": 1},
-            "concededGoals": {"Damien": 1}
+            "goalkeepers": {"Damien": 1}
         }
     },
     {
@@ -190,7 +190,7 @@
             "name": "FC Ste-Foy",
             "score": 0,
             "scorers": {},
-            "concededGoals": {"Damien": 7}
+            "goalkeepers": {"Damien": 7}
         }
     },
     {
@@ -296,7 +296,7 @@
             "name": "FC Ste-Foy",
             "score": 0,
             "scorers": {},
-            "concededGoals": {"Fabien": 3}
+            "goalkeepers": {"Fabien": 3}
         },
         "teamB": {
             "name": "AS Écully B",
@@ -418,7 +418,7 @@
             "name": "FC Ste-Foy",
             "score": 2,
             "scorers": {"Mounir": 1, "Philippe": 1},
-            "concededGoals": {"Fabien": 2}
+            "goalkeepers": {"Fabien": 2}
         },
         "teamB": {
             "name": "Saône Mont d'Or FC",
@@ -448,7 +448,7 @@
             "name": "FC Ste-Foy",
             "score": 2,
             "scorers": {"Pierre": 1, "Redha": 1},
-            "concededGoals": {}
+            "goalkeepers": {}
         }
     },
     {
@@ -462,7 +462,7 @@
             "name": "FC Ste-Foy",
             "score": 7,
             "scorers": {"Mounir": 3, "Pierre": 1, "Redha": 1, "Pablo": 1, "Alexandre Ier": 1},
-            "concededGoals": {}
+            "goalkeepers": {}
         }
     },
     {
@@ -496,7 +496,7 @@
             "name": "FC Ste-Foy",
             "score": 0,
             "scorers": {},
-            "concededGoals": {"Damien": 1}
+            "goalkeepers": {"Damien": 1}
         },
         "teamB": {
             "name": "CO St-Fons",
@@ -526,7 +526,7 @@
             "name": "FC Ste-Foy",
             "score": 2,
             "scorers": {"Mounir": 2},
-            "concededGoals": {}
+            "goalkeepers": {}
         }
     },
     {
@@ -572,7 +572,7 @@
             "name": "FC Ste-Foy",
             "score": 6,
             "scorers": {"Redha": 5, "Mounir": 1},
-            "concededGoals": {}
+            "goalkeepers": {}
         },
         "teamB": {
             "name": "FC Sud-Ouest 69",
@@ -610,7 +610,7 @@
             "name": "FC Ste-Foy",
             "score": 2,
             "scorers": {"Mounir": 1, "Redha": 1},
-            "concededGoals": {"Damien": 2}
+            "goalkeepers": {"Damien": 2}
         },
         "teamB": {
             "name": "FC Villefranche",
@@ -648,7 +648,7 @@
             "name": "FC Ste-Foy",
             "score": 1,
             "scorers": {"Redha": 1},
-            "concededGoals": {}
+            "goalkeepers": {}
         },
         "teamB": {
             "name": "Saône Mont d'Or FC A",
@@ -1050,7 +1050,7 @@
             "name": "FC Ste-Foy",
             "score": 0,
             "scorers": {},
-            "concededGoals": {"Damien": 2}
+            "goalkeepers": {"Damien": 2}
         }
     },
     {
@@ -1088,7 +1088,7 @@
             "name": "FC Ste-Foy",
             "score": 3,
             "scorers": {"Pierre": 2, "Damien": 1},
-            "concededGoals": {"Fabien": 1}
+            "goalkeepers": {"Fabien": 1}
         }
     },
     {
@@ -1114,7 +1114,7 @@
             "name": "FC Ste-Foy",
             "score": 7,
             "scorers": {"Pierre": 4, "Fabien": 2, "Christophe": 1},
-            "concededGoals": {"Damien": 1}
+            "goalkeepers": {"Damien": 1}
         }
     },
     {
@@ -1152,7 +1152,7 @@
             "name": "FC Ste-Foy",
             "score": 0,
             "scorers": {},
-            "concededGoals": {"Fabien": 1}
+            "goalkeepers": {"Fabien": 1}
         }
     },
     {
@@ -1202,7 +1202,7 @@
             "name": "FC Ste-Foy",
             "score": 0,
             "scorers": {},
-            "concededGoals": {"Fabien": 3}
+            "goalkeepers": {"Fabien": 3}
         }
     },
     {
@@ -1252,7 +1252,7 @@
             "name": "FC Ste-Foy",
             "score": 1,
             "scorers": {"Fabien": 1},
-            "concededGoals": {"Damien": 3}
+            "goalkeepers": {"Damien": 3}
         }
     },
     {
@@ -1274,7 +1274,7 @@
             "name": "FC Ste-Foy",
             "score": 1,
             "scorers": {"Pierre": 1},
-            "concededGoals": {"Fabien": 4, "Damien": 1}
+            "goalkeepers": {"Fabien": 4, "Damien": 1}
         },
         "teamB": {
             "name": "CO St-Fons",
@@ -1288,7 +1288,7 @@
             "name": "FC Ste-Foy",
             "score": 1,
             "scorers": {"Pablo": 1},
-            "concededGoals": {"Damien": 3}
+            "goalkeepers": {"Damien": 3}
         },
         "teamB": {
             "name": "CO St-Fons",
@@ -1302,7 +1302,7 @@
             "name": "FC Ste-Foy",
             "score": 3,
             "scorers": {"Pierre": 1, "Fabien": 1, "Redha": 1},
-            "concededGoals": {}
+            "goalkeepers": {}
         },
         "teamB": {
             "name": "CO St-Fons",
@@ -1316,7 +1316,7 @@
             "name": "FC Ste-Foy",
             "score": 0,
             "scorers": {},
-            "concededGoals": {}
+            "goalkeepers": {}
         },
         "teamB": {
             "name": "CO St-Fons",

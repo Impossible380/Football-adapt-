@@ -146,7 +146,7 @@
                                         </thead>
 
                                         <tbody>
-                                            {% for match in matches | matches_filter(event.id, group) %}
+                                            {% for match in matches | match_filter(event.id, group) %}
                                                 <tr>
                                                     <td class="p-1 border border-dark">{{ match.teamA.name }}</td>
                                                     <td class="p-1 border border-dark">{{ match.teamA.score }} - {{ match.teamB.score }}</td>

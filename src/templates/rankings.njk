@@ -6,66 +6,7 @@
             <h3 class="mb-4">Classements des joueurs</h3>
 
             {% include 'rankings/scorers.njk' %}
-
-            <!-- Début Gardiens -->
-            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#classements_gardiens_Modal">Gardiens</a>
-
-            <!-- Modal -->
-            <div class="modal fade text-dark" id="classements_gardiens_Modal" tabindex="-1" aria-labelledby="classements_gardiens_ModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title" id="classements_gardiens_ModalLabel">Classements des gardiens</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-
-                        <div class="modal-body">
-                            <h2 class="mb-3">Sur gazon</h2>
-                            <table class="w-100 text-center">
-                                <thead> <!-- En-tête du tableau -->
-                                    <tr>
-                                        <th class="p-1 border border-dark">Rang</th>
-                                        <th class="p-1 border border-dark">Prénom</th>
-                                        <th class="p-1 border border-dark text-danger">Buts encaissés</th>
-                                        <th class="p-1 border border-dark text-primary">Matchs</th>
-                                        <th class="p-1 border border-dark">Moy. Bc/M</th>
-                                    </tr>
-                                </thead>
-
-                                <tbody id="lawn_goalkeeper_table"> <!-- Corps du tableau -->
-                                    
-                                </tbody>
-                            </table>
-                            
-                            <h2 class="mt-4 mb-3">En salle</h2>
-                            <table class="w-100 text-center">
-                                <thead> <!-- En-tête du tableau -->
-                                    <tr>
-                                        <th class="p-1 border border-dark">Rang</th>
-                                        <th class="p-1 border border-dark">Prénom</th>
-                                        <th class="p-1 border border-dark text-danger">Buts encaissés</th>
-                                        <th class="p-1 border border-dark text-primary">Matchs</th>
-                                        <th class="p-1 border border-dark">Moy. Bc/M</th>
-                                    </tr>
-                                </thead>
-
-                                <tbody id="indoor_goalkeeper_table"> <!-- Corps du tableau -->
-                                    
-                                </tbody>
-                            </table>
-
-                            <h2 class="mt-4 mb-3">Notes</h2>
-                            <p>- Lors du plateau du 4 février 2023 sur gazon à Sainte-Foy-lès-Lyon, Frédéric II (habituellement joueur de champ) a joué environ 5 minutes au poste de gardien lors de la rencontre FC Ste-Foy - ES Chaponost A (0-7). Il a encaissé probablement 2 buts.</p>
-                            <p>- Lors du plateau du 21 octobre 2023 sur gazon à Écully, Damien (d'abord) et Fabien (ensuite) ont chacun joué environ 10 minutes au poste de gardien lors de la rencontre AS Écully B - FC Ste-Foy (1-7). Le premier est resté invaincu tandis que le second a encaissé 1 but.</p>
-                            <p>- Lors du plateau du 2 décembre 2023 en salle à Brindas, Kévin (habituellement joueur de champ) était gardien lors de la rencontre FC Ste-Foy - FC Sud-Ouest 69 (6-0). Il est resté invaincu.</p>
-                            <p>- Lors des matchs amicaux du 18 février 2024 sur gazon à Sainte-Foy-lès-Lyon, Fabien (d'abord) et Damien (ensuite) ont chacun joué environ 10 minutes au poste de gardien lors de la première rencontre entre le FC Ste-Foy - CO St-Fons (1-5). Le premier a encaissé 4 buts et le second en a encaissé 1.</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Fin Gardiens -->
-            
+            {% include 'rankings/goalkeepers.njk' %}
         </div>
     </div>
 </section>

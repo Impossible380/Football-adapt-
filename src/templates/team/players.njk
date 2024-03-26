@@ -30,7 +30,7 @@
                     {% set used_labels = (used_labels.push(colors.label), used_labels) %}
                 {% endif %}
 
-                {% for player in players | sort_by("number") | players_filter(status.label, position.label) %}
+                {% for player in players | player_filter(status.label, position.label) | sort_by("number", "ascending") %}
                     <tr>
                         <td class="p-1">{{ player.number }}</td>
                         <td class="p-1">{{ player.firstname }}</td>

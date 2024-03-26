@@ -24,17 +24,17 @@
                     </thead>
 
                     <tbody id="lawn_scorer_table"> 
-                    
-                        {% for scorer in matches | scorer_ranking_filter() %}
+                        {% set rank = 0 %}
+                        {% for scorer in matches | category_ranking_filter("scorers") | sort_by("goals", "descending") %}
+                            {% set rank = rank + 1 %}
                             <tr>
-                                <td class="p-1 border border-dark">{{ match.eventId }}</td>
-                                <td class="p-1 border border-dark">{{ match.group }}</td>
-                                <td class="p-1 border border-dark">{{ scorer.scorer }}</td>
-                                <td class="p-1 border border-dark">{{ scorer.goals }}</td>
-                                <td class="p-1 border border-dark">{{ match.teamA.scorers }} - {{ match.teamB.concededGoals }}</td>
+                                <td class="p-1 border border-dark">{{ rank }}</td>
+                                <td class="p-1 border border-dark">{{ scorer.name }}</td>
+                                <td class="p-1 border border-dark text-danger">{{ scorer.goals }}</td>
+                                <td class="p-1 border border-dark text-primary">{{ match.group }}</td>
+                                <td class="p-1 border border-dark">{{ match.team.score }} - {{ match.team.score }}</td>
                             </tr>
                         {% endfor %}
-                        
                     </tbody>
                 </table>
                 
