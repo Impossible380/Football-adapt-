@@ -1,14 +1,9 @@
-module.exports = config => {
+const events = require('./src/data/events.json')
+
+module.exports = (config) => {
     config.addPassthroughCopy('src/assets');
     config.addPassthroughCopy('src/css');
     config.addPassthroughCopy('src/js');
-
-
-    config.addNunjucksFilter("filter_by", (array, property, value) => {
-        return array.filter((item) => {
-            return item[property] === value;
-        });
-    });
 
     config.addNunjucksFilter("sort_by", (array, property, order) => {
         return array.sort((a, b) => {
@@ -36,10 +31,18 @@ module.exports = config => {
         });
     });
 
-    config.addNunjucksFilter("category_ranking_filter", (matches, category) => {
+    config.addNunjucksFilter("ranking_filter", (matches, playerCategory, pitchType) => {
+        const newEvents = events.filter((event) => {
+            return event.pitchType === pitchType
+        }).map((event) => event.id);
+        console.log(newEvents)
+
         const newMatches = matches.filter((match) => {
             return match.teamA.name === "FC Ste-Foy"
                 || match.teamB.name === "FC Ste-Foy";
+        })
+        .filter((match) => {
+            return newEvents.includes(match.eventId);
         })
         .map((match) => {
             const { eventId, group, teamA, teamB } = match;
@@ -53,20 +56,20 @@ module.exports = config => {
         const players = {};
 
         newMatches.forEach((match) => {
-            if (!(category in match.team)) {
+            if (!(playerCategory in match.team)) {
                 return;
             }
-            Object.keys(match.team[category])
+            Object.keys(match.team[playerCategory])
                 .forEach((playerName) => {
                     if (!(playerName in players)) {
                         players[playerName] = 0;
                     }
-                    players[playerName] += match.team[category][playerName];
+                    players[playerName] += match.team[playerCategory][playerName];
                 });
         });
 
         return Object.keys(players).map((playerName) => {
-            if (category === "scorers") {
+            if (playerCategory === "scorers") {
                 return {
                     name: playerName,
                     goals: players[playerName]

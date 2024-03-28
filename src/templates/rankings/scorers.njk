@@ -23,9 +23,9 @@
                         </tr>
                     </thead>
 
-                    <tbody id="lawn_scorer_table"> 
+                    <tbody id="lawn_scorer_table">
                         {% set rank = 0 %}
-                        {% for scorer in matches | category_ranking_filter("scorers") | sort_by("goals", "descending") %}
+                        {% for scorer in matches | ranking_filter("scorers", "lawn") | sort_by("goals", "descending") %}
                             {% set rank = rank + 1 %}
                             <tr>
                                 <td class="p-1 border border-dark">{{ rank }}</td>
@@ -51,7 +51,17 @@
                     </thead>
 
                     <tbody id="indoor_scorer_table"> <!-- Corps du tableau -->
-                        
+                        {% set rank = 0 %}
+                        {% for scorer in matches | ranking_filter("scorers", "indoor") | sort_by("goals", "descending") %}
+                            {% set rank = rank + 1 %}
+                            <tr>
+                                <td class="p-1 border border-dark">{{ rank }}</td>
+                                <td class="p-1 border border-dark">{{ scorer.name }}</td>
+                                <td class="p-1 border border-dark text-danger">{{ scorer.goals }}</td>
+                                <td class="p-1 border border-dark text-primary">{{ match.group }}</td>
+                                <td class="p-1 border border-dark">{{ match.team.score }} - {{ match.team.score }}</td>
+                            </tr>
+                        {% endfor %}                        
                     </tbody>
                 </table>
             

@@ -3,7 +3,7 @@
         "id": 1,
         "date": "2023-02-04",
         "type": "plateau",
-        "pitchType": "sur gazon",
+        "pitchType": "lawn",
         "place": "stade du Plan du Loup",
         "city": "Sainte-Foy-lès-Lyon",
         "groups": ["A"]
@@ -12,7 +12,7 @@
         "id": 2,
         "date": "2023-04-29",
         "type": "plateau",
-        "pitchType": "sur gazon",
+        "pitchType": "lawn",
         "place": "stade Robert Guivier",
         "city": "Chaponost",
         "groups": ["A", "B", "Classement"]
@@ -21,7 +21,7 @@
         "id": 3,
         "date": "2023-10-21",
         "type": "plateau",
-        "pitchType": "sur gazon",
+        "pitchType": "lawn",
         "place": "stade Camille Ninel",
         "city": "Écully",
         "groups": ["A", "B"]
@@ -30,7 +30,7 @@
         "id": 4,
         "date": "2023-12-02",
         "type": "plateau",
-        "pitchType": "en salle",
+        "pitchType": "indoor",
         "place": "gymnase Alain Mimoun",
         "city": "Brindas",
         "groups": ["A", "B"]
@@ -39,7 +39,7 @@
         "id": 5,
         "date": "2024-01-20",
         "type": "plateau",
-        "pitchType": "en salle",
+        "pitchType": "indoor",
         "place": "gymnase Montfray Sports",
         "city": "Villefranche-sur-Saône",
         "groups": ["A"]
@@ -48,7 +48,7 @@
         "id": 6,
         "date": "2024-02-18",
         "type": "matchs amicaux",
-        "pitchType": "sur gazon",
+        "pitchType": "lawn",
         "place": "stade du Plan du Loup",
         "city": "Sainte-Foy-lès-Lyon",
         "groups": ["A"]
